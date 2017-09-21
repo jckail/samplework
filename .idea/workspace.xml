@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8297559b-33de-4857-8fd7-86d85138c28f" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sample sql/sample_customers.sql" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/sample sql/sample_customers.sql" afterPath="$PROJECT_DIR$/sample sql/sample_data_imputing.sql" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -28,11 +28,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="complex_aws_athena_redshift_data_loader.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="complex_aws_athena_redshift_data_loader.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/sample python/complex_aws_athena_redshift_data_loader.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="82" column="18" lean-forward="false" selection-start-line="82" selection-start-column="17" selection-end-line="82" selection-end-column="18" />
+            <state relative-caret-position="246">
+              <caret line="50" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="362" selection-end-column="29" />
               <folding>
                 <element signature="e#0#19#0" expanded="true" />
                 <marker date="1505954273000" expanded="true" signature="11708:11736" ph="select count... missing_value" />
@@ -78,11 +78,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="sample_customers.sql" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/sample sql/sample_customers.sql">
+      <file leaf-file-name="sample_data_imputing.sql" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sample sql/sample_data_imputing.sql">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="20" column="36" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="256" selection-end-column="0" />
+            <state relative-caret-position="-622">
+              <caret line="14" column="35" lean-forward="false" selection-start-line="14" selection-start-column="35" selection-end-line="14" selection-end-column="35" />
               <folding />
             </state>
           </provider>
@@ -117,6 +117,7 @@
       <find>iam</find>
       <find>.</find>
       <find>ibotta</find>
+      <find>s3_output</find>
     </findStrings>
     <replaceStrings>
       <replace>iamROLE</replace>
@@ -153,8 +154,10 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="width" value="1280" />
-    <option name="height" value="800" />
+    <option name="x" value="1280" />
+    <option name="y" value="32" />
+    <option name="width" value="1360" />
+    <option name="height" value="768" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -834,7 +837,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1505952818899</updated>
-      <workItem from="1505952821332" duration="2096000" />
+      <workItem from="1505952821332" duration="2419000" />
     </task>
     <task id="LOCAL-00001" summary="First Real Push">
       <created>1505954623900</created>
@@ -843,14 +846,21 @@
       <option name="project" value="LOCAL" />
       <updated>1505954623901</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Added SQL examples">
+      <created>1505954942680</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1505954942680</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2096000" />
+    <option name="totallyTimeSpent" value="2419000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1280" height="800" extended-state="0" />
+    <frame x="1280" y="32" width="1360" height="768" extended-state="0" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -866,7 +876,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24959612" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23444612" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -891,7 +901,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="First Real Push" />
-    <option name="LAST_COMMIT_MESSAGE" value="First Real Push" />
+    <MESSAGE value="Added SQL examples" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added SQL examples" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -932,18 +943,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sample python/complex_aws_athena_redshift_data_loader.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="82" column="18" lean-forward="false" selection-start-line="82" selection-start-column="17" selection-end-line="82" selection-end-column="18" />
-          <folding>
-            <element signature="e#0#19#0" expanded="true" />
-            <marker date="1505954273000" expanded="true" signature="11708:11736" ph="select count... missing_value" />
-            <marker date="1505954273000" expanded="true" signature="11918:11946" ph="select count... missing_value" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/sample python/halfbaked_dataprofile_tool.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="477">
@@ -965,11 +964,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sample sql/sample_customers.sql">
+    <entry file="file://$PROJECT_DIR$/sample sql/sample_data_imputing.sql">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="36" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="256" selection-end-column="0" />
+        <state relative-caret-position="-622">
+          <caret line="14" column="35" lean-forward="false" selection-start-line="14" selection-start-column="35" selection-end-line="14" selection-end-column="35" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sample python/complex_aws_athena_redshift_data_loader.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="246">
+          <caret line="50" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="362" selection-end-column="29" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+            <marker date="1505954273000" expanded="true" signature="11708:11736" ph="select count... missing_value" />
+            <marker date="1505954273000" expanded="true" signature="11918:11946" ph="select count... missing_value" />
+          </folding>
         </state>
       </provider>
     </entry>
