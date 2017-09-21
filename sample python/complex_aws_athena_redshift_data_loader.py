@@ -54,7 +54,7 @@ warehouse_data_types.append('iidw_')#import warehouse_data_types_unlimited via m
 #manage data_types in database via ids
 
 
-###support different warehouse formats via print here
+###support different warehouse formats via print here#####
 def s3_determine_adhoc(input_file,adhoc_data_file_s3_outputdirectory,warehouse_data_file_s3_outputdirectory):
     input_file = os.path.splitext(basename(input_file))[0]
     is_adhoc = ""
